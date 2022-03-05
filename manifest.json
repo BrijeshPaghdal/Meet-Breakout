@@ -1,0 +1,27 @@
+{
+  "action": {
+    "default_popup": "html/popup.html",
+    "default_title": "Meet Breakout"
+  },
+  "content_scripts": [
+    {
+      "all_frames": false,
+      "js": ["js/copy.simple.user.js"],
+      "matches": ["https://meet.google.com/*"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "60": "icons/icon96.png"
+  },
+  "manifest_version": 2,
+  "name": "Meet Breakout",
+  "short_name": "Meet Breakout",
+  "version": "0.0.1",
+  "web_accessible_resources": [
+    {
+      "resources": ["js/copy.simple.user.js"],
+      "matches": ["https://meet.google.com/*"]
+    }
+  ]
+}
