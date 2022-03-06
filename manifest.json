@@ -14,7 +14,7 @@
   "icons": {
     "60": "icons/icon96.png"
   },
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Meet Breakout",
   "short_name": "Meet Breakout",
   "version": "0.0.1",
